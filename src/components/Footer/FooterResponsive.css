@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    .ContenedorFooterPrincipal {
+        width: 100% !important;
+        margin: 0 auto !important;
+        padding-bottom: 33px;
+        height: 100% !important;
+        background: #221e1f;
+        color: #ffffff;
+    }
+    .col-footer-izquierda {
+        height: 0px !important;
+        padding-right: 0px !important;
+    }
+    .col-footer-derecha {
+        height: 40px !important;
+        margin: 0 auto;
+    }
+    .itemSprite-footer-vtex {
+        height: 25px;
+        width: 75px;
+        margin-top: 20px;
+        margin-left: 0px;
+        background: url(http://remote.fizzmod.com/TyQVKjcj4SXjSEWv/frontend/images/sprite.png) -558px -310px;
+    }
+    .itemSprite-footer-fizzmod {
+        height: 20px;
+        width: 75px;
+        margin-top: 20px;
+        background: url(http://remote.fizzmod.com/TyQVKjcj4SXjSEWv/frontend/images/sprite.png) -548px -337px;
+    }
+}

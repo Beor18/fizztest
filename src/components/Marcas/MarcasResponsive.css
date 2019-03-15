@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+    .contenedor-marcas {
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    .row-marcas {
+        width: 100% !important;
+    }
+    .marcas {
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .mensaje {
+        text-align: center;
+        font-size: 15px;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}

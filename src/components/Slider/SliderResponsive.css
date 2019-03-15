@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+    .slider {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        height: 390px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+}

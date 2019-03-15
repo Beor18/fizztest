@@ -1,0 +1,12 @@
+.contenedor-marcas {
+    max-width: 1120px !important;
+}
+
+.marcas {
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+}
+
+.mensaje {
+    text-align: center;
+}

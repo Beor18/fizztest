@@ -1,0 +1,121 @@
+@media screen and (max-width: 480px) {
+    .ContenedorPrincipal {
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+    }
+    /* Menu Top */
+    .primerRow {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .colMenu {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .topMenu {
+        float: left;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 0px !important;
+        font-size: 10px;
+        color: #3A3335;
+        text-align: center !important;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .itemsMenu {
+        float: left;
+        margin-right: 10px;
+        list-style: none;
+    }
+    .itemsMenu-pedidos {
+        float: left;
+        margin-right: 0px;
+        list-style: none;
+        border-left: 0px solid #000;
+        padding-left: 0px;
+    }
+    .itemSprite-sucursal {
+        height: 25px;
+        width: 25px;
+        background: url(http://remote.fizzmod.com/TyQVKjcj4SXjSEWv/frontend/images/sprite.png) -43px 0px;
+        float: left !important;
+    }
+    .itemSprite-comprar {
+        height: 23px;
+        width: 23px;
+        background: url(http://remote.fizzmod.com/TyQVKjcj4SXjSEWv/frontend/images/sprite.png) -66px 0px;
+        float: left !important;
+    }
+    /* FIN Menu Top */
+    /* Logo - Buscador - Imagen Oferta */
+    Col.col-logo {
+        width: 198px !important;
+        padding-right: 0px !important;
+    }
+    .logo {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .imagen-logo {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .col-buscador {
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    form.example input[type=text] {
+        margin-top: 11px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 80%;
+        background: #ffff;
+        font-weight: 700;
+        font-size: 15px;
+        color: #98979d;
+    }
+    /* Style the submit button */
+    form.example button {
+        margin-top: 11px;
+        float: left;
+        width: 36px;
+        padding: 10px;
+        background: #FCAF17;
+        color: white;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        border-left: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    form.example button:hover {
+        background: #FCAF17;
+    }
+    /* Clear floats */
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .col-oferta {
+        margin-top: 12px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .imagen-oferta {
+        width: 100% !important;
+    }
+    /* FIN Logo - Buscador - Imagen Oferta */
+}
