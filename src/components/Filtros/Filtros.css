@@ -1,27 +1,84 @@
- /* Style the button that is used to open and close the collapsible content */
- 
- .collapsible {
-     background-color: #eee;
-     color: #444;
-     cursor: pointer;
-     padding: 18px;
-     width: 100%;
-     border: none;
-     text-align: left;
-     outline: none;
-     font-size: 15px;
- }
- /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
- 
- .active,
- .collapsible:hover {
-     background-color: #ccc;
- }
- /* Style the collapsible content. Note: hidden by default */
- 
- .content {
-     padding: 0 18px;
-     display: none;
-     overflow: hidden;
-     background-color: #f1f1f1;
- }
+.col-filtros {
+    padding-left: 0px !important;
+}
+
+.titulo-filtro {
+    margin: 0px 0px 25px 0px;
+}
+
+.Collapsible {
+    width: 165px !important;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+
+.Collapsible__contentInner {
+    padding-top: 10px;
+    border-top: 0;
+}
+
+.Collapsible__trigger {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid white;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    height: 21px;
+    padding-left: 5px;
+}
+
+.CustomTriggerCSS--open {
+    background-color: #fcaf15;
+    color: #000;
+}
+
+.check-align {
+    vertical-align: middle;
+}
+
+.check {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 9px;
+}
+
+.Collapsible__trigger:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    display: block;
+    transition: transform 300ms;
+    color: #fff;
+}
+
+.is-open:after {
+    transform: rotateZ(180deg);
+}
+
+.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+}
+
+@media screen and (max-width: 480px) {
+    .col-filtros {
+        padding-left: 10px !important;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .Collapsible {
+        width: 165px !important;
+        background-color: #fff;
+        margin-bottom: 12px;
+        text-align: center;
+        margin: auto;
+    }
+}
