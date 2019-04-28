@@ -1,11 +1,11 @@
 @media screen and (max-width: 480px) {
     .ContenedorFooterPrincipal {
-        width: 100% !important;
-        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding-bottom: 33px;
-        height: 100% !important;
-        background: #221e1f;
-        color: #ffffff;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
     .col-footer-izquierda {
         height: 0px !important;

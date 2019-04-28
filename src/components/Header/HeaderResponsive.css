@@ -15,6 +15,9 @@
     .colMenu {
         padding-left: 0px !important;
         padding-right: 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .topMenu {
         float: left;
@@ -63,8 +66,11 @@
         padding-right: 0px !important;
     }
     .imagen-logo {
-        width: 100% !important;
+        width: 50% !important;
         margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .col-buscador {
         width: 100% !important;
@@ -113,6 +119,9 @@
         margin-right: 0px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .imagen-oferta {
         width: 100% !important;
