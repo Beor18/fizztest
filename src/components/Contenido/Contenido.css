@@ -1,0 +1,22 @@
+.contenedor-contenido {
+    width: 981px !important;
+    padding-top: 30px !important;
+}
+
+.row-contenido {
+    width: 981px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor-contenido {
+        width: 100% !important;
+        padding-top: 30px !important;
+    }
+    .row-contenido {
+        width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
