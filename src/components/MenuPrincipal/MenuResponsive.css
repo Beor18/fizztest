@@ -4,7 +4,7 @@
         margin-top: 5px !important;
         padding-left: 25px !important;
         padding-top: 15px;
-        margin-bottom: 28px;
+        margin-bottom: 2px;
         padding-right: 15px !important;
         height: auto !important;
         background: #323232;
@@ -20,16 +20,20 @@
         margin-top: -15px !important;
         margin-bottom: -5px !important;
         padding-right: 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .col-menu-principal-derecha {
-        height: auto !important;
-        margin-top: -5px !important;
-        margin-bottom: -5px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .item-menu-principal-izquierda {
-        height: auto !important;
         float: left !important;
         padding-left: 10px !important;
         padding-right: 10px !important;
@@ -55,7 +59,7 @@
     .item-menu-principal-derecha {
         height: 40px !important;
         margin-top: 10px !important;
-        margin-bottom: 10px !important;
+        margin-bottom: 0px !important;
         padding-right: 10px !important;
         list-style: none;
         text-align: center;
